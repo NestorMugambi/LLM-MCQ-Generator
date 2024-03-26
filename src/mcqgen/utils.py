@@ -5,7 +5,7 @@ import json
 
 
 def read_file(file):
-    if file.name.endswith(".pdf"):
+    if file.name.endswith("pdf"):
         try:
             pdf_reader = PyPDF2.PdfFileReader(file)
             text = ""
