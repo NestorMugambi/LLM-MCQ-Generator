@@ -10,7 +10,7 @@ from src.mcqgen.MCQgen import generate_evaluate_chain
 from langchain_community.callbacks import get_openai_callback
 
 
-file = open('Response.json)
+file = open('Response.json')
 RESPONSE_JSON = json.load(file)
 
 st.title("MCQ generator with python")
