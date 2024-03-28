@@ -11,7 +11,7 @@ from langchain_community.callbacks import get_openai_callback
 
 
 
-RESPONSE_JSON = Response.json
+RESPONSE_JSON = json.load("Response.json")
 
 st.title("MCQ generator with python")
 with st.form("user_inputs"):
