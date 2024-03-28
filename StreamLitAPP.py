@@ -10,8 +10,8 @@ from src.mcqgen.MCQgen import generate_evaluate_chain
 from langchain_community.callbacks import get_openai_callback
 
 
-with open (r"C:\Users\nestor\genai\Response.json",'r') as file:
-    RESPONSE_JSON = json.load(file)
+
+RESPONSE_JSON = Response.json
 
 st.title("MCQ generator with python")
 with st.form("user_inputs"):
